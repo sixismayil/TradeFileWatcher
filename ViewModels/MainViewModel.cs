@@ -9,7 +9,7 @@ namespace TradeFileWatcher.ViewModels
 {
     public class MainViewModel
     {
-        public ObservableCollection<TradeRecord> Trades { get; set; } = new();
+        public ObservableCollection<TradeRecord> Trades { get; set; } = new ObservableCollection<TradeRecord>();
 
         private readonly FileMonitorService _monitor;
 
